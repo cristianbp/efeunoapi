@@ -1,0 +1,11 @@
+header{
+    position: sticky;
+    top: 0px;
+    nav-link{
+        text-align: right;
+        &hoover{
+            color: black;
+            text-decoration: underline;
+        }
+    }
+}
