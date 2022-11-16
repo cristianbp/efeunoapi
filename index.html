@@ -13,7 +13,9 @@
     <!-- Header -->
     <header class="header">
       <nav class="navbar">
-        <a class="logomenu" href="/index.html"> <img src="/media/f1logo.png" alt="Logo"> </a>
+        <a class="logomenu" href="/index.html">
+          <img src="/media/f1logo.png" alt="Logo" />
+        </a>
         <ul class="menu">
           <li class="menuitem">
             <a class="linkitem" href="#inicio">Inicio</a>
@@ -37,15 +39,18 @@
     <h1 class="maintitle">F1 | ¿Cómo podemos apoyarte?</h1>
 
     <main>
-      <section>
+      <section class="mainsection">
         <article>
           <div id="incio">
             <h2 class="subtitles">Inicio</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              natus consectetur officiis doloremque facere eligendi cum,
-              perspiciatis assumenda rerum provident pariatur sit voluptatibus
-              ducimus aperiam laborum quaerat reprehenderit perferendis quae!
+              Lorerum dolores! Quaerat possimus animi, porro cum nemo corporis
+              quas expedita laboriosam tenetur, repellendus culpa molestiae quod
+              voluptates laborum veritatis quis eaque iure fuga sapiente eos
+              numquam accusantium sunt magni voluptate. Veritatis maiores
+              voluptatem natus dolor nulla excepturi necessitatibus laborum sed
+              ex corporis? Ullam et excepturi tempore pariatur ipsum nesciunt
+              placeat id?
             </p>
           </div>
         </article>
@@ -101,31 +106,43 @@
             </p>
           </div>
         </article>
-        <form action="/" method="post">
-          <label for="name">*Nombre</label>
-          <input type="text" name="name" id="name" required /><br />
-          <label for="lastname">*Apellido</label>
-          <input type="text" name="lastname" id="lastname" required /><br />
-          <label for="email">*e-mail</label>
-          <input type="email" name="email" id="email" required /><br />
-          <label for="phone">*Teléfono</label>
-          <input
-            type="number"
-            name="phone"
-            id="phone"
-            maxlength="10"
-            required
-          /><br />
-          <label for="message">Mensaje</label>
-          <input type="text" name="message" id="message" /><br />
-
-          <button type="submit">Enviar</button>
-        </form>
       </section>
+      <!-- Form  -->
+      <form action="/" method="post">
+        <label for="name">*Nombre</label>
+        <input type="text" name="name" id="name" required /><br />
+        <label for="lastname">*Apellido</label>
+        <input type="text" name="lastname" id="lastname" required /><br />
+        <label for="email">*e-mail</label>
+        <input type="email" name="email" id="email" required /><br />
+        <label for="phone">*Teléfono</label>
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          maxlength="10"
+          required
+        /><br />
+        <label for="message">Mensaje</label>
+        <input type="text" name="message" id="message" /><br />
+
+        <button type="submit">Enviar</button>
+      </form>
     </main>
   </body>
-  <!-- Pie de página -->
+  <!-- Footer -->
   <footer>
     <p>2022 &copy; All rigths reserved - F1</p>
+    <div class="social">
+      <a href="https://www.instagram.com/efeuno.co/" target="_blank"><img src="/media/instagram.png" alt="Instagram" /></a>
+      <img src="/media/twitter.png" alt="Twitter" /><img
+        src="/media/facebook.png"
+        alt="Facebook"
+      /><img src="/media/whatsapp.png" alt="Whatsapp" /><img
+        src="/media/linkedin.png"
+        alt="Linkedin"
+      /><img src="/media/git.png" alt="GitHub" />
+    </div>
   </footer>
+  <!-- Footer end -->
 </html>
