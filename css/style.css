@@ -1,20 +1,12 @@
-@font-face {
-  font-family: 'sofia_prolight';
-  src: url('/fonts/sofiapro-light-webfont.woff2') format('woff2'),
-       url('/fonts/sofiapro-light-webfont.woff2') format('woff');
-  font-weight: normal;
-  font-style: normal;
 
-}
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: 'sofia_prolight';
-  font-weight: normal;
-  font-style: normal;
-  color: #5b657e;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  color: #2b2635;
   overflow-x: hidden;
   padding: 90px 10px 0px;
 }
@@ -63,13 +55,15 @@ body {
   border-radius: 5px;
 }
 .linkitem:hover {
-  background-color: grey;
+  background-color: lavender;
   transition: 0.5s;
 }
 .maintitle{
   font-size: 40px;
   text-decoration: solid;
   text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 10px;
 }
 .subtitles{
   color: black;
@@ -91,4 +85,9 @@ footer{
 .social img{
   width: 20px;
   margin: 5px 5px 0px;
+}
+.texts{
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  
 }
